@@ -1,0 +1,149 @@
+/* Fontes Elegantes */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans:wght@400;600&display=swap');
+
+/* Estilos Gerais */
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    background-color: #F5F5F5; /* Cinza claro para o fundo */
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #FFFFFF; /* Branco para o fundo do cabeçalho */
+    padding: 20px;
+    border-bottom: 2px solid #E0E0E0; /* Linha sutil */
+}
+
+header h1 {
+    font-family: 'Merriweather', serif;
+    color: #5C2F91; /* Lilás para o título */
+    font-size: 2.5em;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+header h2 {
+    font-family: 'Merriweather', serif;
+    color: #5C2F91; /* Lilás para subtítulos */
+    font-size: 1.5em;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Navegação */
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5C2F91; /* Lilás para links */
+    font-weight: 600;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    color: #007BFF; /* Azul para hover */
+    text-decoration: underline;
+}
+
+/* Seções */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    background-color: #FFFFFF; /* Branco para fundo das seções */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* Títulos e Subtítulos */
+h1, h2, h3, h4 {
+    font-family: 'Merriweather', serif;
+    margin-bottom: 15px;
+}
+
+h2, h3 {
+    color: #5C2F91; /* Lilás para subtítulos */
+}
+
+h2, h3, h4 {
+    font-weight: 700; /* Negrito para subtítulos */
+}
+
+h4 {
+    font-weight: 400; /* Regular para subtítulos específicos */
+}
+
+/* Botões */
+button {
+    background-color: #5C2F91; /* Lilás para botões */
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4B216A; /* Lilás escuro para hover */
+}
+
+/* Layout e Estilo das Listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: url('checkmark.svg') no-repeat left center; /* Ícone de marcação */
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+/* Formulário de Contato */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaço entre os campos */
+    max-width: 600px; /* Ajuste a largura máxima do formulário, se necessário */
+    margin: 0 auto; /* Centraliza o formulário */
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #E0E0E0;
+    width: 100%; /* Garante que os campos ocupem toda a largura disponível */
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+input[type="submit"] {
+    background-color: #5C2F91; /* Lilás para o botão de envio */
+    color: #FFFFFF;
+    border: none;
+    padding: 15px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+input[type="submit"]:hover {
+    background-color: #4B216A; /* Lilás escuro para hover */
+}
+
+/* Seções Ocultas */
+.hidden {
+    display: none;
+}

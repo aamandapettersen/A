@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Amanda Petersen - Desenvolvedora e Analista de Sistemas">
+    <title>Portfólio de Amanda Petersen</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Amanda Petersen</h1>
+        <h2>"Construindo o Futuro com Tecnologia"</h2>
+        <nav>
+            <a href="#sobre-mim" onclick="showSection('sobre-mim')">Sobre Mim</a>
+            <a href="#projetos" onclick="showSection('projetos')">Projetos</a>
+            <a href="#habilidades" onclick="showSection('habilidades')">Habilidades</a>
+            <a href="#contato" onclick="showSection('contato')">Contato</a>
+        </nav>
+    </header>
+
+    <section id="sobre-mim" class="content-section">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Eu sou a Amanda Petersen, uma estudante do último ano de Análise e Desenvolvimento de Sistemas com uma paixão inabalável por desenvolvimento web. Desde que comecei minha jornada na programação, fui cativada pela capacidade de transformar ideias abstratas em soluções concretas e funcionais.</p>
+        <p>Minha paixão por tecnologia vai além do simples ato de codificar. Adoro o desafio constante de resolver problemas e a satisfação que vem ao encontrar soluções eficientes e inovadoras. A cada novo projeto, busco não apenas cumprir os requisitos, mas também aprimorar a experiência do usuário, garantindo que o produto final seja intuitivo e agradável de usar.</p>
+        <p>Tenho um sólido conhecimento em HTML, CSS, JavaScript, e React, que utilizo para criar interfaces de usuário dinâmicas e responsivas. Além disso, possuo experiência em desenvolvimento back-end com Java, Python, e SQL, o que me permite entender e trabalhar em todos os aspectos de um projeto de software.</p>
+        <p>Atualmente, estou estagiando na Omega Automação como Suporte Técnico N1, onde tenho a oportunidade de aplicar e expandir minhas habilidades em um ambiente empresarial. Minhas principais responsabilidades incluem:</p>
+        <ul>
+            <li><strong>Suporte a Usuários:</strong> Forneço suporte técnico a usuários finais, ajudando na operação de diversos softwares empresariais e garantindo que todos os problemas sejam resolvidos de maneira eficiente e eficaz.</li>
+            <li><strong>Gestão de Chamados Técnicos:</strong> Sou responsável pela abertura, controle e acompanhamento de chamados técnicos, assegurando que todas as solicitações sejam tratadas com a devida prioridade e resolvidas no tempo apropriado.</li>
+            <li><strong>Desenvolvimento de Banco de Dados:</strong> Tenho experiência no desenvolvimento e implementação de bancos de dados utilizando PostgreSQL, o que me permitiu contribuir para a otimização de processos internos e a melhoria da gestão de dados.</li>
+        </ul>
+        <p>Sou motivada pelo desejo de aprendizado contínuo e pela vontade de sempre melhorar. Acredito que a programação é uma habilidade em constante evolução, e estou sempre buscando novas tecnologias e metodologias para aperfeiçoar meu trabalho.</p>
+        <p>Meu objetivo é atuar como Analista de Sistemas, Desenvolvedora ou Programadora, seja no front-end ou back-end, onde eu possa aplicar minhas habilidades e contribuir para o sucesso de projetos inovadores. Estou ansiosa para colaborar com equipes dinâmicas e trazer minha paixão e dedicação para cada desafio que enfrentar.</p>
+    </section>
+
+    <section id="projetos" class="content-section hidden">
+        <h2>Projetos</h2>
+        <h3>Calculadora Avançada</h3>
+        <p>Desenvolvi uma Calculadora Avançada usando HTML, CSS e JavaScript, destacando minhas habilidades em criação de interfaces responsivas e interatividade com JavaScript.</p>
+        <a href="https://github.com/aamandapettersenn/CalculadoraAvancadaFrontEnd" target="_blank">GitHub - Calculadora Avançada</a>
+    </section>
+
+    <section id="habilidades" class="content-section hidden">
+        <h2>Habilidades</h2>
+        <h3>Desenvolvimento Front-End</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Frameworks de Front-End</li>
+        </ul>
+        <h3>Desenvolvimento Back-End</h3>
+        <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>PostgreSQL</li>
+        </ul>
+        <h3>Banco de Dados</h3>
+        <ul>
+            <li>PostgreSQL</li>
+            <li>MySQL</li>
+        </ul>
+        <h3>Ferramentas e Tecnologias</h3>
+        <ul>
+            <li>Git/GitHub</li>
+            <li>Docker</li>
+            <li>VSCode</li>
+            <li>Postman</li>
+        </ul>
+        <h3>Metodologias de Desenvolvimento</h3>
+        <ul>
+            <li>Desenvolvimento Ágil (Scrum, Kanban)</li>
+            <li>Versionamento de Código</li>
+        </ul>
+    </section>
+
+    <section id="contato" class="content-section hidden">
+        <h2>Contato</h2>
+        <form action="enviar-mensagem.php" method="post">
+            <label for="nome">Seu Nome</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">Seu E-mail</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensagem">Sua Mensagem</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</body>
+</html>
